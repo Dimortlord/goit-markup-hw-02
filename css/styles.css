@@ -1,0 +1,53 @@
+body {
+    background-color:#E5E5E5;
+    color: #212121;
+}
+
+.logo:hover {color: #2196F3;}
+
+ul {list-style: none;}
+
+.site-nav .link {
+    color:#212121
+}
+
+ .site-nav .link:hover,
+ .site-nav .link:focus {
+     color: #2196F3;
+}
+
+.main-title {
+color: #FFFFFF;
+}
+
+.button {
+color: #FFFFFF;
+background-color: #2196F3;
+}
+
+
+
+
+.advantages-title {
+    color: #2196F3;
+}
+
+.subtitle {
+    color:#212121;
+}
+
+.text {
+    color: #757575;
+}
+
+
+
+/* site-nav/*
+
+
+/* цвет основного текста #212121 /*
+/* вторичный цвет текста #757575 /*
+
+/* белый #E5E5E5 /*
+/* акцент #2196F3 /*
+/* вторичный цвет фона #F5F4FA/*
