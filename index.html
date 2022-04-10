@@ -3,54 +3,55 @@
 <head>
     <title>goit-markup-hw-01</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body class="page">
     <header class="page-header">
         <nav>
-
             <a href="/" class="logo">WebStudio</a>
-
-            <ul class="site-nav">
-                <li><a href="index.html" class="link">Студія</a></li>
-                <li><a href="portfolio.html" class="link">Портфоліо</a></li>
-                <li><a href="#" class="link">Контакти</a></li>
+                <ul class="site-nav"> 
+                     <li><a href="index.html" class="link">Студія</a></li>
+                     <li><a href="portfolio.html" class="link">Портфоліо</a></li>
+                     <li><a href="#" class="link">Контакти</a></li>
+                 </ul>
+       </nav>
+            <ul class="section-info">
+                 <li><a class="section-info-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                 <li><a class="section-info-number" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
-        </nav>
-        <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
     </header>
     <main> 
         <section class="main">
             <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
             <button type="button" class="button">Заказать услугу</button>
         </section>
-        <section class="advantages">
-            <h2 class="advantages-title">Преимущества</h2>
-            <ul>
-                <li>
-                    <h3>Внимание к деталям</h3>
-                    <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+        <section class="section-features">
+            <h2 class="visually-hidden">Преимущества</h2>
+            <ul class="section-feature-list">
+                <li class="section-feature-item">
+                    <h3 class="section-feature-title">Внимание к деталям</h3>
+                    <p class="section-feature-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
-                <li>
-                    <h3>Пунктуальность</h3>
-                    <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                <li class="section-feature-item">
+                    <h3 class="section-feature-title" >Пунктуальность</h3>
+                    <p class="section-feature-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
-                <li>
-                    <h3>Планирование</h3>
-                    <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                <li class="section-feature-item">
+                    <h3 class="section-feature-title">Планирование</h3>
+                    <p class="section-feature-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
-                <li>
-                    <h3>Современные технологии</h3>
-                    <p>РЗначимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                <li class="section-feature-item">
+                    <h3 class="section-feature-title">Современные технологии</h3>
+                    <p class="section-feature-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
         </section>
-        <section>
-            <h2>Чем мы занимаемся</h2>
-            <ul>
-                <li>
+        <section class="section-work">
+            <h2 class="section-work-title">Чем мы занимаемся</h2>
+            <ul class="section-work-list">
+                <li class="section-work-item">
                     <img src="./image/img.jpg" alt="Програмируем" width="370"/>
                 </li>
                  <li>
@@ -61,43 +62,48 @@
                 </li>
         </ul>
         </section>
-        <section class="section">
-            <h2 class="section-title">Наша команда</h2>
-            <ul>
-                <li>
+        <section class="section-team">
+            <h2 class="section-team-titlemain">Наша команда</h2>
+            <ul class="section-team-list">
+                <li class="section-team-item">
                     <img src="./image/ihor.jpg" width="270" alt="Ihor"/>
-                    <h3>Игорь Демьяненко</h3>
-                    <p>Product Designer</p>
+                    <h3 class="section-team-title">Игорь Демьяненко</h3>
+                    <p class="section-team-text">Product Designer</p>
                 </li>
-                <li>
+                <li class="section-team-item">
                     <img src="./image/olha.jpg" width="270" alt="Olha"/>
-                    <h3>Ольга Репина</h3>
-                    <p>Frontend Developer</p>
+                    <h3 class="section-team-title">Ольга Репина</h3>
+                    <p class="section-team-text">Frontend Developer</p>
                 </li>
-                <li>
+                <li class="section-team-item">
                     <img src="./image/nikolay.jpg" width="270" alt="Nikolay"/>
-                    <h3>Николай Тарасов</h3>
-                    <p>Marketing</p>
+                    <h3 class="section-team-title">Николай Тарасов</h3>
+                    <p class="section-team-text">Marketing</p>
                 </li>
-                <li>
+                <li class="section-team-item">
                     <img src="./image/michael.jpg" width="270" alt="Michael"/>
-                    <h3>Михаил Ермаков</h3>
-                    <p>UI Designer</p>
+                    <h3 class="section-team-title">Михаил Ермаков</h3>
+                    <p class="section-team-text">UI Designer</p>
                 </li>
             </ul>
         </section>
     </main>
 </body>
 
-<footer>
-    <a href="/">WebStudio</a>
-        <address>
-            <a href="https://goo.gl/maps/dWaZSE19gj2M48VF6">г. Киев, пр-т Леси Украинки, 26</a>
-        </address> 
-    <ul>
-        <li><a href="mail:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+<footer class="section-network">
+    <a class="section-network-logo" href="/">WebStudio</a>     
+<address class="section-network-adress">            
+    <ul class="section-network-list">
+        <li class="section-network-item">
+            <a class="section-network-maps" href="https://goo.gl/maps/dWaZSE19gj2M48VF6">г. Киев, пр-т Леси Украинки, 26</a>  
+        </li>
+        <li class="section-network-item">
+            <a class="section-network-mail" href="mail:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li class="section-network-item">
+            <a class="section-network-number" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
     </ul>
-    
+</address>  
 </footer>
 </html>
