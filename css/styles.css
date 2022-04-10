@@ -9,7 +9,11 @@
     --secondary-logo-color: #000000;
 }
 
-.body {color: var(--primary-backgroung-color);}
+.body {color: var(--primary-backgroung-color);
+    color: #000000;
+      font-family: "Roboto", sans-serif;
+}
+
 
 
 
